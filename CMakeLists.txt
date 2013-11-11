@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 2.6)
+project(Assegnamento01)
+
+add_executable(copy_image.out copy_image.cpp)
+add_executable(histogram.out histogram.cpp)
+add_executable(binarization.out binarization.cpp)
+add_executable(luminance_reduction.out luminance.cpp)
+add_executable(median_filter.out median_filter.cpp)
+add_executable(edge.out edge.cpp)
+add_executable(difference.out difference.cpp)
+add_executable(cut.out cut.cpp)
